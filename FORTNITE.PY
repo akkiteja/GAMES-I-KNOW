@@ -47,14 +47,14 @@ if(DropAt == 1):
     print('The enemy throws some stink bombs at you, forcing you to run down the stairs. You run down to find the enemy waiting for you, Where they one pump you.')
     time.sleep(7)
     print('')
-    print('And with that the game is over. Try again to go for the victory royal')
+    print('And with that the game is over. Try again to go for the victory royale')
     print('Better luck next time. Thanks for playing '+ CharacterName + '. This game was created by CodePython2')
   else:
     time.sleep(1)
     print('You start charging up the minigun. You go crazy blasting the bullets everywhere and even hitting the enemy a couple times. But the fun is short lived because you run out of amo. The enemy quickly one pumps you')
     time.sleep(10)
     print('')
-    print('And with that the game is over. Try again to go for the victory royal')
+    print('And with that the game is over. Try again to go for the victory royale')
     print('Better luck next time. Thanks for playing ' +CharacterName + '. This game was created by CodePython2')
 if(DropAt == 2):
   time.sleep(1)
