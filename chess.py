@@ -2,6 +2,7 @@
 positions are done row-column from the bottom left and are both numbers. This corresponds to the alpha-number system in traditional chess while being computationally useful. they are specified as tuples
 """
 import itertools
+import pygame
 WHITE = "white"
 BLACK = "black"
 
@@ -237,4 +238,4 @@ uniDict = {WHITE : {Pawn : "♙", Rook : "♖", Knight : "♘", Bishop : "♗", 
         
 
 
-Game()w
+pygame.display.quit()
